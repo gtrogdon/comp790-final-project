@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 0
+    path: Assets/OpeningScene/OpeningRoom.unity
+    guid: f94e32cb426a5934b9432fb3eff79884
+  - enabled: 0
+    path: Assets/MazeScene/Maze.unity
+    guid: 5a87fc71bc9ca4948b8619b3e9c0fb52
+  - enabled: 0
+    path: Assets/MazeScene/Maze2.unity
+    guid: 80e095aeb888d7e4484a48fa41c2caf0
+  - enabled: 0
+    path: Assets/Andrew Scenes/CielingPuzzle.unity
+    guid: b9052973a35a73e4f8abdef6f57b7e28
+  - enabled: 0
+    path: Assets/Andrew Scenes/CypherRoom.unity
+    guid: 9442307ca714ebf4d8f16805f0028675
+  - enabled: 0
+    path: Assets/GameOverScenes/GameOver.unity
+    guid: c49a10733dc597a4687a70cf8cb6617a
+  - enabled: 0
+    path: Assets/GameOverScenes/GameClear.unity
+    guid: 1ee2c9bef9e9a3f4e9af523f4d4a4c37
+  - enabled: 1
+    path: Assets/ClimbingScene/ClimbingScene.unity
+    guid: d29434aca06556a4da5d607dc56f729a
+  m_configObjects:
+    Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 5075704adde00b84081887198e178962, type: 2}
+    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 0704674ba6ca06542abc7e26940ae09b, type: 2}
+    com.unity.xr.openxr.settings4: {fileID: 11400000, guid: a99f3dcafa2aa734a961fe1a7c8bc628, type: 2}
