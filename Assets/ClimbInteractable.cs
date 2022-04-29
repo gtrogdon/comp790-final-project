@@ -5,15 +5,13 @@ using UnityEngine.XR.Interaction.Toolkit;
 
 public class ClimbInteractable : XRBaseInteractable
 {
-    // Start is called before the first frame update
-    void Start()
+    protected override void OnSelectEntering(XRBaseInteractor interactor)
     {
-        
+        base.OnSelectEntering(interactor);
     }
 
-    // Update is called once per frame
-    void Update()
+    protected override void OnSelectExiting(XRBaseInteractor interactor)
     {
-        
+        base.OnSelectExiting(interactor);
     }
 }

@@ -17,6 +17,7 @@ public static class GameState
         scenes.Add("MazeScene/Maze2");
         scenes.Add("Andrew Scenes/CielingPuzzle");
         scenes.Add("Andrew Scenes/CypherRoom");
+        scenes.Add("ClimbingScene/ClimbingScene");
     }
 
     public static string getNextScene()
